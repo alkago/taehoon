@@ -9,9 +9,10 @@
         <a href="success"><p style="text-align: center">내가.통과한다.</p></a>
         <p style="text-align: center">1. 멋사의 나이</p>
         <p><%= @age %></p>
+        <p><%= @age_count %></p>
         <p>2. 1번에 나이 2개 추가 후 나이 낮은 순으로 정렬</p>
-        <p><%= @plusage %></p>
-
+        <p><%= @age.push(22,25).sort %></p>
+        <p><%= @plusage_count %></p>
 
 
 

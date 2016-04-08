@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   get "/" => 'winner#pass'
   get "/success" => 'winner#success'
+  get "/dodo" => 'winner#momo'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

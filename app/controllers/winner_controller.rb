@@ -4,7 +4,6 @@ class WinnerController < ApplicationController
         @age_count = @age.count
         
         @plusage = @age
-        @plusage.push(22,25)
         @plusage.sort
         @plusage_count = @plusage.count
         
@@ -19,3 +18,5 @@ class WinnerController < ApplicationController
         
     end
 end
+
+ 
